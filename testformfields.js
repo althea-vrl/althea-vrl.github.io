@@ -4,9 +4,9 @@
   // Ethnicity fields
   function handleEthnicityFields() {
     // IDs of Ethnicity fields
-    const ethnicityCheckBoxesFieldID = 97818790;
-    const ethnicityOtherFieldID      = 97818786;
-    const ethnicityHiddenFieldID     = 97270677;
+    const ethnicityCheckBoxesFieldID = 96548325;
+    const ethnicityOtherFieldID      = 97133878;
+    const ethnicityHiddenFieldID     = 97839473;
 
     // Fields
     const ethnicityCheckBoxField = loader.getEngine().getDocument().getElementById( ethnicityCheckBoxesFieldID );
@@ -60,9 +60,9 @@
 
   function handleGenderFields() {
     // IDs of Gender fields
-    const genderCheckBoxesFieldID = 97387782;
-    const genderOtherFieldID      = 97537509;
-    const genderHiddenFieldID     = 97387801;
+    const genderCheckBoxesFieldID = 96453065;
+    const genderOtherFieldID      = 97133914;
+    const genderHiddenFieldID     = 97863790;
 
     // Fields
     const genderCheckBoxesField = loader.getEngine().getDocument().getElementById( genderCheckBoxesFieldID );
@@ -132,9 +132,9 @@
 
   function handlePoliticalFields() {
     // Political field IDs
-    const politicalDropDownFieldID = 97497873;
-    const politicalOtherFieldID    = 97500115;
-    const politicalHiddenID        = 97387818;
+    const politicalDropDownFieldID = 96469500;
+    const politicalOtherFieldID    = 97151162;
+    const politicalHiddenID        = 97863817;
 
     // Political fields (as objects)
     const politicalDropDownField = loader.getEngine().getDocument().getElementById( politicalDropDownFieldID );
@@ -193,9 +193,9 @@
 
   function handleEducationLevelFields() {
     // Education Level field IDs
-    const educationLevelDropDownFieldID = 97500085;
-    const educationLevelOtherFieldID    = 97500111;
-    const educationLevelHiddenFieldID   = 97500113;
+    const educationLevelDropDownFieldID = 96453107;
+    const educationLevelOtherFieldID    = 97151193;
+    const educationLevelHiddenFieldID   = 97863822;
 
     // Education Level fields (as objects)
     const educationLevelDropDownField = loader.getEngine().getDocument().getElementById( educationLevelDropDownFieldID );
@@ -253,17 +253,17 @@
   }
 
   function handleCoachingFields() {
-    // Education Level field IDs
-    const coachingDropDownFieldID = 97500189;
-    const coachingOtherFieldID    = 97500201;
-    const coachingHiddenFieldID   = 97500204;
+    // How did you hear about this coaching session field IDs
+    const coachingDropDownFieldID = 96547010;
+    const coachingOtherFieldID    = 97147730;
+    const coachingHiddenFieldID   = 97864110;
 
-    // Education Level fields (as objects)
+    // How did you hear about this coaching session fields (as objects)
     const coachingDropDownField = loader.getEngine().getDocument().getElementById( coachingDropDownFieldID );
     const coachingOtherField    = loader.getEngine().getDocument().getElementById( coachingOtherFieldID );
     const coachingHiddenField   = loader.getEngine().getDocument().getElementById( coachingHiddenFieldID );
 
-    // The following is triggered when the "Other Education" text field changes
+    // The following is triggered when the "Other (how did you hear...)" text field changes
     coachingOtherField.on( 'value-change', function () {
       const dropdownValue = coachingDropDownField.getValue();
 
@@ -287,7 +287,7 @@
       } );
     } );
 
-    // The following is triggered when the "Please choose your highest level of education" dropdown field changes
+    // The following is triggered when the "How did you hear about this coaching session" dropdown field changes
     coachingDropDownField.on( 'value-change', function () {
       const dropdownValue = coachingDropDownField.getValue();
 
@@ -314,9 +314,9 @@
   }
 
   function handleBecomeMemberFields() {
-    const becomeAMemberCheckBoxFieldID = 97500126;
-    const becomeAMemberOtherFieldID    = 97537661;
-    const becomeAMemberHiddenFieldID   = 97500129;
+    const becomeAMemberCheckBoxFieldID = 97147715;
+    const becomeAMemberOtherFieldID    = 97151198;
+    const becomeAMemberHiddenFieldID   = 97863902;
 
     const becomeAMemberCheckBoxField = loader.getEngine().getDocument().getElementById( becomeAMemberCheckBoxFieldID );
     const becomeAMemberOtherField    = loader.getEngine().getDocument().getElementById( becomeAMemberOtherFieldID );
@@ -365,9 +365,9 @@
 
   function handleIssuesFields() {
     // Issues fields IDs
-    const issuesCheckBoxID    = 97500207;
-    const issuesOtherFieldID  = 97537712;
-    const issuesHiddenFieldID = 97500243;
+    const issuesCheckBoxID    = 97150247;
+    const issuesOtherFieldID  = 97150387;
+    const issuesHiddenFieldID = 97863927;
 
     // Issues fields (as objects)
     const issuesCheckBoxField = loader.getEngine().getDocument().getElementById( issuesCheckBoxID );
@@ -417,9 +417,9 @@
 
   function handleContactFields() {
     // Contact field IDs
-    const contactDropDownFieldID = 97500250;
-    const contactOtherFieldID    = 97500253;
-    const contactHiddenFieldID   = 97500331;
+    const contactDropDownFieldID = 96469840;
+    const contactOtherFieldID    = 97134006;
+    const contactHiddenFieldID   = 97863952;
 
     // Contact fields (as objects)
     const contactDropDownField = loader.getEngine().getDocument().getElementById( contactDropDownFieldID );
