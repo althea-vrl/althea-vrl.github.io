@@ -31,7 +31,7 @@
       const otherGender = ethnicityOtherField.getValue().value;
 
       ethnicityHiddenField.setValue( {
-        value: otherGender ? otherGender.replaceAll( ',', '/' ) : '',
+        value: otherGender ? ('Demographics > Ethnicity: ' + otherGender.replaceAll( ',', '/' )) : '',
       } );
     } );
 
@@ -53,7 +53,7 @@
       const otherGender = ethnicityOtherField.getValue().value;
 
       ethnicityHiddenField.setValue( {
-        value: otherGender ? otherGender.replaceAll( ',', '/' ) : '',
+        value: otherGender ? ('Demographics > Ethnicity: ' + otherGender.replaceAll( ',', '/' )) : '',
       } );
     } );
   }
