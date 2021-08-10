@@ -4,9 +4,9 @@
   // Ethnicity fields
   function handleEthnicityFields() {
     // IDs of Ethnicity fields
-    const ethnicityCheckBoxesFieldID = 96548325;
-    const ethnicityOtherFieldID      = 97133878;
-    const ethnicityHiddenFieldID     = 97839473;
+    const ethnicityCheckBoxesFieldID = 97960345;
+    const ethnicityOtherFieldID      = 97960346;
+    const ethnicityHiddenFieldID     = 97960347;
 
     // Fields
     const ethnicityCheckBoxField = loader.getEngine().getDocument().getElementById( ethnicityCheckBoxesFieldID );
